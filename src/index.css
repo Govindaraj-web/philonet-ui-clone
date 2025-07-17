@@ -202,6 +202,11 @@ body, html {
 
 /* Mobile Responsive */
 @media (max-width: 768px) {
+ .nav-links {
+  display: flex;
+  gap: 10px;
+  font-size: 14px;
+}
   .hero-content {
     flex-direction: column;
     text-align: center;
